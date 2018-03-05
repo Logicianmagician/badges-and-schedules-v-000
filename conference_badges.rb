@@ -19,9 +19,9 @@ end
 
 def printer(attendees)
   attendees.map do |i|
-    print "Hello, my name is #{i}."
+    puts "Hello, my name is #{i}."
    end
    attendees.map.with_index do |name, index|
-     "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+    puts "Hello, #{name}! You'll be assigned to room #{index + 1}!"
    end
 end
