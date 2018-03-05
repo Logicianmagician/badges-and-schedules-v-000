@@ -18,7 +18,11 @@ def assign_rooms(name)
 end
 
 def printer(attendees)
-  attendees.batch_badge_creator.assign_rooms
+  attendees.map do |i|
+    print "Hello, my name is #{i}."
+   end
+   attendees.map.with_index do |name, index|
+     "Hello, #{name}! You'll be assigned to room #{index + 1}!"
 end
 
   
