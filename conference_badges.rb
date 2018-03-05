@@ -2,6 +2,6 @@
 room = 1
 
 def badge_maker(name)
- name.map { |name|
+ name.collect { |name|
   puts "Hello, my name is #{name}." }
 end
