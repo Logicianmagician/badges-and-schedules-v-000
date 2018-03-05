@@ -8,8 +8,8 @@ attendees = ["Edsger", "Ada", "Charles",
    "Alan", "Grace", "Linus", "Matz"]
 
 def batch_badge_creator(attendees)
-  attendees.each.badge_maker do |i|
-    puts i
+  attendees.each do |i|
+    puts i.badge_maker
   end
 end
 
