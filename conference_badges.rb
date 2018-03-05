@@ -12,5 +12,3 @@ def batch_badge_creator(attendees)
     puts i.badge_maker
   end
 end
-
-  
